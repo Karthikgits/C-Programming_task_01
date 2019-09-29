@@ -1,0 +1,21 @@
+#include<stdio.h>
+struct user
+{
+   char name[50];
+   int age;
+   int phno;
+};
+void main()
+{
+   struct user u;
+   printf("Please enter your NAME: \n ");
+   scanf("%s",u.name);
+   printf("Please enter your AGE : \n ");
+   scanf("%d",&u.age);
+   printf("Please enter your phone number: \n ");
+   scanf("%d",&u.phno);
+   printf("\n USER DETAILS \n ");
+   printf("NAME : %s ", u.name);
+   printf("AGE : %d ",u.age);
+   printf("PHONE NUMBER :%d " ,u.phno);
+}
