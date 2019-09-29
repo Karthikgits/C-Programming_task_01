@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+  float cel,fran;
+  printf("ENTER TEMPERATURE(in celcius):\n");
+  scanf("%f",&cel);
+  fran=(cel*1.8)+32;
+  printf("FAHRENHEIT = %f \n ",fran);
+  printf("CELCIUS =%f", cel);
+}
